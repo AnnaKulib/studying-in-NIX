@@ -107,6 +107,14 @@ div.first-link-wrapper > a[href="https://htmlweb.ua/"]
 
 div.first-link-wrapper a {
   font-size: medium;
-  padding: 10px;
+  text-decoration: none;
 }
-/* [attr$=value] */
+
+div a:nth-child(3n)[href$="/css"]:hover {
+  border: solid 2px;
+  border-color: #ff0000 #ff0000 #7d4ffc #7d4ffc;
+  border-radius: 0 5px;
+}
+a ~ a {
+  color: brown;
+}
