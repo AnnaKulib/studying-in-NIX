@@ -94,5 +94,5 @@ a.with-before:hover::before {
 
 div.first-link-wrapper a[href="https://htmlweb.ua/"]
 {
-  color: #ff0000;
+  color: violet;
 }
