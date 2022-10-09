@@ -115,6 +115,6 @@ div a:nth-child(3n)[href$="/css"]:hover {
   border-color: #ff0000 #ff0000 #7d4ffc #7d4ffc;
   border-radius: 0 5px;
 }
-a ~ a {
-  color: brown;
+a ~ a:visited {
+  color: yellow;
 }
