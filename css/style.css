@@ -1,5 +1,6 @@
 section {
   outline: #ff0000 solid 1px;
+  padding: 20px;
 }
 input:checked ~ label {
   color: #ff0000;
@@ -89,6 +90,7 @@ a.with-before:hover::before {
 .first-link-wrapper {
   width: 100%;
   height: 480px;
+  padding: 15px;
   background: repeating-linear-gradient(45deg, #7fffd4 10%, #f0ffff 30%);
 }
 
@@ -96,3 +98,15 @@ div.first-link-wrapper a[href="https://htmlweb.ua/"]
 {
   color: violet;
 }
+
+div.first-link-wrapper > a[href="https://htmlweb.ua/"]
+{
+  background-image: radial-gradient(at center bottom, #7d4ffc, #7fffd4);
+  border-radius: 10%;
+}
+
+div.first-link-wrapper a {
+  font-size: medium;
+  padding: 10px;
+}
+/* [attr$=value] */
