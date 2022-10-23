@@ -1,3 +1,23 @@
+.grid {
+  display: grid;
+  justify-content: center;
+  padding: 10px;
+  grid-template-areas:
+    "a a b c d"
+    "e f g g h"
+    "i j g g ."
+    "k k k l m";
+  grid-template-rows: repeat(4, 150px);
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+
+.container {
+  color: rgb(233, 241, 248);
+  background-color: rgb(57, 55, 55);
+  padding: 10px;
+  border-radius: 10px;
+}
 .container_a {
   grid-area: a;
 }
@@ -37,26 +57,7 @@
 .container_m {
   grid-area: m;
 }
-.grid {
-  display: grid;
-  justify-content: center;
-  padding: 10px;
-  grid-template-areas:
-    "a a b c d"
-    "e f g g h"
-    "i j g g ."
-    "k k k l m";
-  grid-template-rows: repeat(4, 150px);
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 10px;
-}
 
-.container {
-  color: rgb(233, 241, 248);
-  background-color: rgb(57, 55, 55);
-  padding: 10px;
-  border-radius: 10px;
-}
 @media (min-width: 1024px) {
   .grid {
     grid-template-areas:
