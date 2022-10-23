@@ -62,7 +62,7 @@
     flex-direction: column;
   }
   .item {
-    height: 25vh;
+    height: 200px;
     margin-bottom: 40px;
   }
   .item_red {
