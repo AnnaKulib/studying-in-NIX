@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'Reey-Regular';
+  src: url(./Reey-Regular.woff2) format('woff2'),
+       url(./Reey-Regular.woff) format('woff');
+}
