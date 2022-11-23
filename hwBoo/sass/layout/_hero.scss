@@ -1,0 +1,68 @@
+.logo {
+  max-width: 140px;
+}
+
+@font-face {
+    font-family: "Reey-Regular";
+    // font-display: swap;
+    src: url("../fonts/Reey-Regular.woff") format("woff"), url("../fonts/Reey-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.title {
+    width: 640px;
+  font-size: 92px;
+  color: #ffffff;
+  font-family: "Reey-Regular";
+  filter: drop-shadow(0px 5px 2.5px rgba(84, 82, 79, 0.22));
+}
+.posttitle {
+  width: 469px;
+  height: 65px;
+  font-size: 25px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  font-weight: 700;
+  font-style: italic;
+  font-family: "Open Sans";
+  text-align: center;
+
+  margin-bottom: 65px;
+}
+
+.button-hero {
+  opacity: 0.902;
+  width: 218px;
+  height: 47px;
+  border-radius: 21px;
+  background-color: #ffffff;
+
+  font-size: 25px;
+  color: #2e3034;
+  font-weight: 800;
+  font-family: "Open Sans";
+  text-align: center;
+}
+.description {
+  max-width: 452px;
+  font-size: 21px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Open Sans";
+}
+
+.leaves {
+    bottom: -120px;
+    left: 277px;
+}
+.spagetti {
+  max-width: 100%;
+  height: auto;
+}
+
+.souse {
+    bottom: -100px;
+}

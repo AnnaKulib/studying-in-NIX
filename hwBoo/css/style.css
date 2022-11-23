@@ -15,6 +15,7 @@ or scss:
   font-family: "Reey";
   src: url(../fonts/Reey-Regular.woff2) format("woff2"),
     url(../fonts/Reey-Regular.woff) format("woff"),
+    url(../fonts/Reey-Regular.eot) format("eot"),
     url(../fonts/Reey-Regular.ttf) format("ttf");
 }
 
