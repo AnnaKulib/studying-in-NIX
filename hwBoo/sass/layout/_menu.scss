@@ -1,0 +1,46 @@
+.menu__title {
+    font-size: 75px;
+    color: #222328;
+    font-family: "Reey-Regular";
+}
+
+.menu__description {
+    max-width: 1788px;
+font-size: 27px;
+color: #2f3135;
+font-weight: 400;
+font-family: "Open Sans";
+text-align: center;
+}
+.menu__card {
+    border: none !important;
+}
+.menu__card-title {
+    font-size: 29px;
+color: #343434;
+font-weight: 700;
+font-family: "Open Sans";
+}
+.menu__card-text {
+    font-size: 23px;
+color: #343434;
+font-weight: 400;
+font-family: "Open Sans";
+}
+.centered-el {
+    width: 350px;
+}
+.menu__button {
+    width: 334px;
+    height: 75px;
+    border-radius: 38px;
+    background-color: #343434; 
+    font-size: 23px;
+letter-spacing: 5px;
+line-height: 21px;
+// text-transform: uppercase;
+color: #ffffff;
+font-weight: 800;
+font-family: "Open Sans";
+}
+
