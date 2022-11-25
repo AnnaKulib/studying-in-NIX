@@ -48,9 +48,9 @@
                 </ul>
                 <form class="d-flex px-3 search justify-content-end align-items-center" role="search">
                   <!--   class="form-control me-2" -->
-                  <input class="inputSearch" type="search" placeholder="" aria-label="Search" />
+                  <input class="inputSearch position-relative" type="search" placeholder="" aria-label="Search" />
                   <!-- class="btn btn-outline-success" -->
-                  <button class="buttonSearch btn" type="submit">
+                  <button class="buttonSearch btn position-absolute" type="submit">
                     <img class="imgSearch" src="./img/Search.png" alt="search" />
                   </button>
                 </form>
@@ -86,6 +86,7 @@
       </div>
     </section>
     <main>
+      <!-- Menu -->
       <section class="menu" id="menu">
         <div class="container-xxl pt-5 pb-5">
           <h2 class="menu__title text-center pb-5 my-5 text-capitalize">your favorite dishes</h2>
@@ -222,6 +223,7 @@
             more</button>
         </div>
       </section>
+      <!-- Our Story -->
       <section class="ourStory" id="ourStory">
         <div class="container-xxl pt-5 pb-5">
           <h2 class="ourStory__title text-center text-capitalize text-white pt-5 pb-5">our story</h2>
@@ -240,6 +242,7 @@
             more</button>
         </div>
       </section>
+      <!-- Promotion -->
       <section class="promotion">
         <div class="container-xxl pt-5">
           <div class="d-flex align-items-center justify-content-center">
@@ -266,6 +269,7 @@
           </div>
         </div>
       </section>
+      <!-- More about -->
       <section class="moreAbout position-relative">
         <div class="container-xxl pt-5">
           <img src="./img/livesByMoreAbout.png"
@@ -279,43 +283,116 @@
           <img src="img/pizza.png" class="position-relative m-auto">
         </div>
       </section>
+      <!-- Additional -->
       <section class="additional">
         <div class="container-xxl">
           <div class="row">
             <div class="col-4">
               <h4 class="additional__title p-5">Lorem, ipsum.</h4>
-              <p class="additional__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, eaque? Iste repellendus iure laborum in autem blanditiis.</p>
+              <p class="additional__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, eaque? Iste
+                repellendus iure laborum in autem blanditiis.</p>
             </div>
             <div class="col-4">
               <h4 class="additional__title p-5">Lorem, ipsum.</h4>
-              <p class="additional__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, eaque? Iste repellendus iure laborum in autem blanditiis.</p>
+              <p class="additional__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, eaque? Iste
+                repellendus iure laborum in autem blanditiis.</p>
             </div>
             <div class="col-4">
               <h4 class="additional__title p-5">Lorem, ipsum.</h4>
-              <p class="additional__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, eaque? Iste repellendus iure laborum in autem blanditiis.</p>
+              <p class="additional__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, eaque? Iste
+                repellendus iure laborum in autem blanditiis.</p>
             </div>
           </div>
           <div>
-            <p class="additional__description text-center mx-auto mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quae sed nostrum temporibus, aperiam, dicta vitae quibusdam facilis, veniam fugit cum adipisci non assumenda veritatis voluptate.</p>
+            <p class="additional__description text-center mx-auto mb-5">Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Corporis quae sed nostrum temporibus, aperiam, dicta vitae quibusdam facilis, veniam
+              fugit cum adipisci non assumenda veritatis voluptate.</p>
             <p class="additional__signature text-center mx-auto">Lorem, ipsum.</p>
           </div>
         </div>
       </section>
+      <!-- Subscribe -->
       <section class="subscribe position-relative" id="contactUs">
         <div class="container-xxl">
-          <img src="./img/leavesBySubscribe.png" class="position-absolute translate-middle start-50 subscribe__leaves d-none d-lg-block">
+          <img src="./img/leavesBySubscribe.png"
+            class="position-absolute translate-middle start-50 subscribe__leaves d-none d-lg-block">
           <div class="container d-flex flex-column h-100 justify-content-center">
             <h2 class="subscribe__title text-center text-white text-capitalize">title here</h2>
-            <p class="subscribe__text text-center text-white mx-auto my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nobis, consectetur fugiat nisi aperiam odio.</p>
+            <p class="subscribe__text text-center text-white mx-auto my-5">Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Natus nobis, consectetur fugiat nisi aperiam odio.</p>
             <form class="position-relative">
-                <div class="row position-relative justify-content-between justify-content-lg-center">
-                    <input type="email" class="subscribe__input col-12 col-md-4 col-xxl-5 pl-5" placeholder="Your Email" required>
-                    <button type="submit" class=" position-absolute col-md col-xxl-2 subscribe__button text-white text-uppercase">subscribe</button>
-                </div>
+              <div class="row position-relative justify-content-between justify-content-lg-center">
+                <input type="email" class="subscribe__input col-12 col-md-4 col-xxl-5 pl-5" placeholder="Your Email"
+                  required>
+                <button type="submit"
+                  class=" position-absolute col-md col-xxl-2 subscribe__button text-white text-uppercase">subscribe</button>
+              </div>
             </form>
+          </div>
         </div>
-</div>
       </section>
+      <footer>
+        <section class="footer__block d-flex align-items-center justify-content-center">
+          <div class="container-xxl row">
+            <div class="social col-6">
+              <h5 class="footer__title text-capitalize mb-5">title here</h5>
+              <p class="footer__text mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt commodi similique architecto
+                accusantium porro tempore nesciunt consectetur, necessitatibus optio, consequatur ratione odio itaque
+                quod totam?</p>
+              <div class="social__media d-flex">
+                <a href="https://www.instagram.com/" target="_blank" class="btn btn-dark rounded-circle  me-3">
+                  <svg class="social__media-icon">
+                    <use href="./img/sprite-icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+                <a href="https://www.facebook.com/" target="_blank" class="btn btn-dark rounded-circle me-3">
+                  <svg class="social__media-icon rounded-circle">
+                    <use href="./img/sprite-icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+                <a href="https://twitter.com/" target="_blank" class="btn btn-dark rounded-circle me-3">
+                  <svg class="social__media-icon rounded-circle">
+                    <use href="./img/sprite-icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+                <a href="https://www.whatsapp.com/" target="_blank" class="btn btn-dark rounded-circle me-3">
+                  <svg class="social__media-icon rounded-circle">
+                    <use href="./img/sprite-icons.svg#icon-whatsapp"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="about col-2">
+              <h5  class="footer__title text-capitalize mb-5">About</h5>
+              <ul class="footer__list">
+                <li>History</li>
+                <li>Our team</li>
+                <li>Brand Guidelines</li>
+                <li>Terms & Condition</li>
+                <li>Privacy Policy</li>
+              </ul>
+            </div>
+            <div class="services col-2">
+              <h5  class="footer__title text-capitalize mb-5">Services</h5>
+              <ul class="footer__list">
+                <li>How to Order</li>
+                <li>Our Product</li>
+                <li>Order Status</li>
+                <li>Promo</li>
+                <li>Payment Method</li>
+              </ul>
+            </div>
+            <div class="other col-2">
+              <h5  class="footer__title text-capitalize mb-5">Other</h5>
+              <ul class="footer__list">
+                <li>Contact Us</li>
+                <li>Help</li>
+                <li>Privacy</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </footer>
   </div>
   </main>
 

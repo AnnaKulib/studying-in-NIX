@@ -53,10 +53,6 @@ a {
   padding-left: 5px;
 }
 
-.imgSearch {
-  margin-right: 30px;
-}
-
 .logo {
   max-width: 140px;
 }
@@ -343,4 +339,30 @@ a {
   border-radius: 32px;
   border: none;
   background-color: #54524f;
+}
+
+.footer__block {
+  min-height: 800px;
+  color: #343434;
+  font-weight: 400;
+  font-family: "Montserrat";
+  font-size: 24px;
+}
+
+.footer__title {
+  font-size: 32px;
+}
+
+.footer__text {
+  max-width: 640px;
+}
+
+.social__media-icon {
+  fill: currentColor;
+  width: 17px;
+  height: 22px;
+}
+
+.footer__list {
+  padding-left: 0;
 }/*# sourceMappingURL=main.css.map */
