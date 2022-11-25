@@ -263,6 +263,7 @@ a {
 
 .additional {
   padding-top: 200px;
+  padding-bottom: 150px;
 }
 
 .additional__title {
@@ -340,5 +341,6 @@ a {
   width: 222px;
   height: 65px;
   border-radius: 32px;
+  border: none;
   background-color: #54524f;
 }/*# sourceMappingURL=main.css.map */
