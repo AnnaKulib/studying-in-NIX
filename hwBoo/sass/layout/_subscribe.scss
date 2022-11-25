@@ -1,0 +1,43 @@
+.subscribe {
+    background-color: #27292c;
+    height: 800px; 
+    padding-top: 200px;
+}
+
+.subscribe__leaves {
+    top: 60%;
+}
+.subscribe__title {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 60px;
+}
+
+.subscribe__text {
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size: 29px;
+    max-width: 890px;
+}
+.subscribe__input {
+    height: 63px;
+    width: 660px;
+    border-radius: 32px;
+    font-family: 'Open Sans';
+    font-size: 25px;
+}
+
+.subscribe__button {
+    right: 0;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 25px;
+    padding: 14px 41px;
+    letter-spacing: normal;
+    right: 16%;
+    width: 222px;
+height: 65px;
+border-radius: 32px;
+background-color: #54524f;
+}
