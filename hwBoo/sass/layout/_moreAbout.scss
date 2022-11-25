@@ -1,0 +1,31 @@
+.moreAbout {
+    background-color: #000000;
+    background: url(../img/headerBackground.png) no-repeat;
+    background-size: cover;
+    max-height: 1080px;
+}
+
+.moreAbout__leaves {
+    top: 20%;
+}
+
+.moreAbout__title {
+    font-size: 58px;
+    color: #f8f6f1;
+    font-family: "Reey-Regular";
+}
+
+.moreAbout__text {
+    // max-width: 714px;
+    font-size: 25px;
+    line-height: 33px;
+    color: #f8f6f1;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.moreAbout__underline {
+    background-color: #fafafa;
+    height: 10px;
+    width: 160px;
+}

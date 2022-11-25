@@ -158,10 +158,6 @@ a {
   font-family: "Open Sans";
 }
 
-.centered-el {
-  width: 350px;
-}
-
 .menu__button {
   width: 334px;
   height: 75px;
@@ -232,4 +228,35 @@ a {
   color: #ffffff;
   font-weight: 800;
   font-family: "Open Sans";
+}
+
+.moreAbout {
+  background-color: #000000;
+  background: url(../img/headerBackground.png) no-repeat;
+  background-size: cover;
+  max-height: 1080px;
+}
+
+.moreAbout__leaves {
+  top: 20%;
+}
+
+.moreAbout__title {
+  font-size: 58px;
+  color: #f8f6f1;
+  font-family: "Reey-Regular";
+}
+
+.moreAbout__text {
+  font-size: 25px;
+  line-height: 33px;
+  color: #f8f6f1;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+
+.moreAbout__underline {
+  background-color: #fafafa;
+  height: 10px;
+  width: 160px;
 }/*# sourceMappingURL=main.css.map */
