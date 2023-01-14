@@ -12,10 +12,6 @@ let obj = {
   4: 3,
 };
 
-console.log(obj);
-const arr = Object.entries(obj);
-console.log(arr);
-
 // function multiplyNumeric(obj) {
 //   for (const [key, value] of Object.entries(obj)) {
 //     // console.log(`${key}: ${value}`);
@@ -32,14 +28,9 @@ console.log(arr);
 //   console.log(obj);
 // }
 
+// --------- or v2 ----------------
 // function multiplyNumeric(obj) {
 //   for (const key in obj) {
-//     // Key
-//     // console.log(key);
-
-//     // The property value with this key
-//     console.log(obj[key]);
-
 //     if (typeof obj[key] === "number") {
 //       obj[key] *= 2;
 //     }
@@ -48,3 +39,8 @@ console.log(arr);
 // }
 
 // multiplyNumeric(obj);
+
+// це для перевірки себе:
+// console.log(obj);
+// const arr = Object.entries(obj);
+// console.log(arr);
