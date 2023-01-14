@@ -5,13 +5,13 @@
 // рядок або натиснувши "Скасувати". У цьому випадку функція повинна повернути null.
 
 function readNumber() {
-  let result = prompt("title");
+  let input = prompt("Введіть числове значення");
   //   console.log(result);
-  if (!result) {
+  if (!input) {
     return null;
   }
-  while (isNaN(result)) {
-    result = prompt("Введіть число");
+  while (isNaN(input)) {
+    input = prompt("Все ж таки введіть число");
   }
 }
 
