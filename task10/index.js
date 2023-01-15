@@ -9,7 +9,19 @@
 // «0».
 
 function sumInput() {
-  let result = prompt("Введіть доданки");
-}
+  let numbers = [];
+  let sum = 0;
 
-sumInput();
+  while (true) {
+    let input = prompt("Введіть доданки");
+    if (input === "" || input === null || !isFinite(input)) break;
+    numbers.push(+input);
+  }
+  console.log(numbers);
+
+  for (const number of numbers) {
+    sum += number;
+  }
+  return sum;
+}
+console.log(sumInput());
