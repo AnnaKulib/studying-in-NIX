@@ -7,3 +7,17 @@
 // let filtered = filterRange(arr, 1, 4);
 // alert(filtered); // 3,1 (збігаються значення)
 // alert(arr); // 5,3,8,1 (без змін)
+
+function filterRange(arr, a, b) {
+  let fitleredArr;
+
+  fitleredArr = arr.filter((elem) => elem >= a && elem < b);
+
+  console.log(fitleredArr);
+  console.log(arr);
+}
+
+let arr = [5, 3, 8, 1, 2, 9];
+let filtered = filterRange(arr, 2, 8);
+
+filterRange();
