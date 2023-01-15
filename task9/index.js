@@ -19,14 +19,32 @@
 // function extractCurrencyValue(str) {
 //   for (let i = 0; i < str.length; i++) {
 //     if (!isNaN(str[i])) {
-//       let newStr = str.slice(i);
+//       let res = str.slice(i);
 //       // -------- or --------
-//       // let newStr = str.substring(i);
-//       return newStr;
+//       // let res = str.substring(i);
+//       return res;
 //     }
 //   }
 // }
 // console.log(extractCurrencyValue("$$120"));
+
+// ------------- or ---------------
+// function extractCurrencyValue(str) {
+//   let strArr = str.split("");
+//   console.log(strArr);
+//   for (let i of strArr) {
+//     if (i === "/^[0-9]+$/") {
+//       continue;
+//     } else {
+//       strArr.splice(i, 1);
+//     }
+//   }
+//   let res = strArr.slice(1, strArr.length).join("");
+//   let num = parseInt(res);
+//   console.log(typeof num);
+// }
+
+// extractCurrencyValue("$USD120");
 
 // ----------- or --------------------------------
 // function extractCurrencyValue(str) {
@@ -36,7 +54,8 @@
 //       numEl += str[i];
 //     }
 //   }
-//   console.log(numEl);
+//   let res = parseInt(numEl);
+//   console.log(res);
+//   console.log(typeof res);
 // }
-
 // extractCurrencyValue("$$120021$$");
