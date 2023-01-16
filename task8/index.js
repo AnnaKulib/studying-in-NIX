@@ -20,7 +20,7 @@ sortByAge(arr);
 function sortByAge() {
   let valuesArr = Object.values(arr);
   let ages = [];
-  //   console.log(map);
+  //   console.log(valuesArr);
   valuesArr
     .sort((a, b) => a.age - b.age)
     .forEach(({ name }) => ages.push(name));
