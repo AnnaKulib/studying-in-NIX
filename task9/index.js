@@ -3,8 +3,15 @@
 // та повертає середній вік.
 // Формула обчислення середнього арифметичного значення: (age1+age2+...+ageN)/N.
 // Наприклад:
-// let vasya = { name: "Вася", age: 25};
-// let petya = { name: "Петя", age: 30};
-// let masha = { name: "Маша", age: 29};
-// let arr = [ vasya, petya, masha ];
-// alert(getAverageAge(arr)); // (25 + 30 + 29) / 3 = 28
+let vasya = { name: "Вася", age: 25 };
+let petya = { name: "Петя", age: 30 };
+let masha = { name: "Маша", age: 29 };
+let arr = [vasya, petya, masha];
+
+console.log(getAverageAge(arr)); // (25 + 30 + 29) / 3 = 28
+
+function getAverageAge(arr) {
+  let valuesArr = Object.values(arr);
+  console.log(valuesArr);
+  return valuesArr.reduce((acc, { age }) => acc + age, 0) / valuesArr.length;
+}
