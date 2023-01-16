@@ -14,3 +14,17 @@
 // Завдання – написати функцію factorial(n), яка повертає n!, використовуючи рекурсію.
 // alert( factorial(5) ); // 120
 // PS Підказка: n! можна записати як n*(n-1)! Наприклад: 3! = 3 * 2! = 3 * 2 * 1! = 6
+
+// 2
+//3
+function factorial(n) {
+  let result = 1;
+  if (n === 1 || n === 0) {
+    return result;
+  }
+
+  result = n * factorial(n - 1);
+
+  return result;
+}
+console.log(factorial(5));
