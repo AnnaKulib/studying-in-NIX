@@ -21,3 +21,13 @@ function namesArr() {
   console.log(names);
 }
 namesArr();
+
+// --------- or -------------------
+// const names = Object.values(users);
+// console.log(names);
+// let namesArr = [];
+// for (let { name } of names) {
+//   console.log(name);
+//   namesArr.push(name);
+// }
+// console.log(namesArr);
