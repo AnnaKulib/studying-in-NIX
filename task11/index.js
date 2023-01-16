@@ -6,8 +6,23 @@
 // function unique(arr) {
 // /* ваш код */
 // }
-// let values = ["Hare", "Krishna", "Hare", "Krishna",
-// "Krishna", "Krishna", "Hare", "Hare", ":-O"];
+let values = [
+  "Hare",
+  "Krishna",
+  "Hare",
+  "Krishna",
+  "Krishna",
+  "Krishna",
+  "Hare",
+  "Hare",
+  ":-O",
+];
 // alert(unique(values)); // Hare,Krishna,:-O
 // PS Тут ми використовуємо рядки, але значення може бути будь-якого типу.
 // PPS Використовуйте Set для збереження унікальних значень.
+
+function unique(arr) {
+  let mySet = new Set(arr);
+  return Array.from(mySet);
+}
+console.log(unique(values));
