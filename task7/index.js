@@ -10,7 +10,7 @@ let users = [vasya, petya, masha];
 // alert(names); // Вася, Петя, Маша
 
 console.log(users);
-function namearr() {
+function namesArr() {
   let map = new Map(Object.entries(users));
   let names = [];
   console.log(map);
@@ -20,4 +20,4 @@ function namearr() {
   });
   console.log(names);
 }
-namearr();
+namesArr();
