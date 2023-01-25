@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <script defer src="index.js"></script>
     <style>
       #field {
         width: 200px;
@@ -9,6 +10,13 @@
         border: 10px solid black;
         background-color: #00ff00;
         overflow: hidden;
+        position: relative;
+      }
+      #ball {
+        position: absolute;
+        left: 0;
+        top: 0;
+        transition: 1s all;
       }
     </style>
   </head>
