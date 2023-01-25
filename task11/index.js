@@ -13,7 +13,14 @@
 // 3. Зробіть його вибраним.
 
 let selectGenres = document.getElementById("genres");
-console.log(selectGenres);
+
+console.log(
+  `значення вибраного пункту: ${selectGenres.value}, текст: ${
+    selectGenres.options[selectGenres.selectedIndex].text
+  }`
+);
+// console.log(selectGenres.value);
+// console.log(selectGenres.selectedIndex);
 selectGenres.insertAdjacentHTML(
   "beforeend",
   '<option value="classic">Класика</option>'
