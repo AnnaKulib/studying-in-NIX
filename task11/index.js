@@ -11,3 +11,11 @@
 // 1. Виведіть значення та текст вибраного пункту.
 // 2. Додайте пункт: <option value="classic">Класика</option>.
 // 3. Зробіть його вибраним.
+
+let selectGenres = document.getElementById("genres");
+console.log(selectGenres);
+selectGenres.insertAdjacentHTML(
+  "beforeend",
+  '<option value="classic">Класика</option>'
+);
+selectGenres.value = "classic";
