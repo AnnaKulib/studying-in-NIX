@@ -5,10 +5,10 @@
 
 let panes = document.querySelectorAll(".pane");
 
-for (const pane of panes) {
+panes.forEach((pane) => {
   pane.insertAdjacentHTML(
     "afterbegin",
     '<button class="remove-button">[x]</button>'
   );
-  pane.firstChild.onclick = () => pane.remove();
-}
+  pane.firstChild.addEventListener("click", () => pane.remove());
+});
