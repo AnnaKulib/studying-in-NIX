@@ -2,7 +2,11 @@
 
 // У змінній button знаходиться кнопка. Спочатку на ній немає обробників.
 // Який із обробників запуститься? Що буде виведено під час кліку після виконання коду?
+let button = document.querySelector("button");
 
-// button.addEventListener("click" , () => alert ( "1" ));
-// button.removeEventListener("click" , () => alert ( "1" ));
-// button.onclick = () => alert ( 2 );
+button.addEventListener("click", () => alert("1"));
+button.removeEventListener("click", () => alert("1"));
+button.onclick = () => alert(2);
+
+// Спрацює перший лістенер, виведе "1", потім Алерт, віведе "2"
+// Ремув не спрацює, бо не передаємо йому першу функцію, яку б він видалив, а передаємо ніби нову
