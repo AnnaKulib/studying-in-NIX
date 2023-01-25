@@ -18,7 +18,7 @@
 //  @param {Node} elem елемент, який позиціонується
 // Обидва елементи elem і anchor повинні бути присутніми у документі
 function positionAt(anchor, position, elem) {
-  elem.style.position = "absolute";
+  elem.style.position = "fixed";
   let coords = anchor.getBoundingClientRect();
   switch (position) {
     case "top":
