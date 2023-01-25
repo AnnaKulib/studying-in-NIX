@@ -18,11 +18,15 @@ p {
   background: #edf5e1;
   padding: 10px 20px 10px;
   border-top: solid 2px #c4df9b;
+  position: relative;
 }
 
 .remove-button {
+  position: absolute;
+  display: block;
   font-size: 110%;
   color: darkred;
+  top: 0;
   right: 10px;
   width: 24px;
   height: 24px;
